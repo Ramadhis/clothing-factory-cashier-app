@@ -3,7 +3,19 @@ import React from "react";
 const pricing = () => {
     return (
         <div className="col-md-6 mt-1 ">
-            <div className="card bg-light pt-3 pb-3 card-right-custom">
+            <div className="mb-3">
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label">
+                            Berapa pcs yang ada inginkan ?
+                        </label>
+                        <input type="number" min="100" class="form-control" />
+                        <div class="form-text">Minimal pemesanan 100pcs</div>
+                    </div>
+                </form>
+            </div>
+
+            <div className="card bg-light pt-1 pb-1 card-right-custom">
                 <div className="row p-3">
                     <div className="col-6">
                         <div> harga per pcs</div>
@@ -25,7 +37,7 @@ const pricing = () => {
                         <option value="2">Two</option>
                         <option value="3">Three</option>
                     </select>
-                    <button className="btn btn-primary w-100 mt-5">
+                    <button className="btn btn-primary w-100 mt-3">
                         Submit
                     </button>
                 </div>

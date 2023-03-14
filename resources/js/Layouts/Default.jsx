@@ -35,24 +35,6 @@ function Layout({ children }) {
                                         POSTS
                                     </Link>
                                 </li>
-                                <li className="nav-item">
-                                    <a
-                                        className="nav-link"
-                                        href="https://santrikoding.com/ebook"
-                                        target="_blank"
-                                    >
-                                        EBOOK
-                                    </a>
-                                </li>
-                                <li className="nav-item">
-                                    <a
-                                        className="nav-link"
-                                        href="https://santrikoding.com/tutorial-set"
-                                        target="_blank"
-                                    >
-                                        TUTORIAL SET
-                                    </a>
-                                </li>
                             </ul>
                             <LoginModal />
                         </div>

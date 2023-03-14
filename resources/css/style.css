@@ -35,3 +35,28 @@ label input[type="radio"]:checked + .card-custom {
     border: 1px solid rgb(175, 175, 175);
     width: 5rem;
 }
+
+/* clotest color */
+
+.card-clotest-color {
+    border: 1px solid rgb(175, 175, 175);
+    width: 2rem;
+    height: 2rem;
+}
+
+.card-clotest-color-custom {
+    border: 1px solid rgb(175, 175, 175);
+}
+
+/* if card clotest hover */
+.card-clotest-color-custom:hover {
+    outline: 1px solid;
+    outline-color: blue;
+    outline-offset: 0.1rem;
+}
+
+label input[type="radio"]:checked + .card-clotest-color-custom {
+    outline: 1px solid;
+    outline-color: blue;
+    outline-offset: 0.1rem;
+}
